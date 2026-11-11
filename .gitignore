@@ -1,0 +1,33 @@
+# Données et modèles volumineux
+data/raw/
+data/processed/
+data/*.csv
+data/*.json
+*.zip
+*.tar
+*.tar.gz
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+
+# Résultats générés localement
+results/generated/
+results/figures/
+results/*.csv
+results/*.json
+
+# Fichiers Colab générés
+*.html
+
+# Environnement Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Secrets et fichiers système
+.env
+.DS_Store
+Thumbs.db
