@@ -47,5 +47,4 @@ MyDrive/ia_visuelle/
 ```
 
 Les fichiers intermédiaires et les résultats (`.csv`, `.json`, figures, etc.)
-sont enregistrés dans ce dossier Drive. Une autorisation Google est demandée
-la première fois que le notebook monte Drive.
+sont enregistrés dans ce dossier Drive. Une autorisation Google est demandée la première fois que le notebook monte Drive.
