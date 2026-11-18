@@ -4,7 +4,7 @@ Les notebooks seront numérotés et exécutés dans cet ordre :
 
 1. Préparation des données et de l'environnement
 2. Baseline sans modèle
-3. Inférence BLIP et GIT (`03_modeles_blip_git.ipynb`)
+3. Jugement image-légende avec BLIP et GIT (`03_modeles_blip_git.ipynb`)
 4. Évaluation et comparaison avec les humains
 5. Démonstration
 
