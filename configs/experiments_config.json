@@ -1,0 +1,23 @@
+{
+  "models": {
+    "blip": {
+      "hf_id": "Salesforce/blip-image-captioning-base",
+      "architecture": "BlipForConditionalGeneration"
+    },
+    "git": {
+      "hf_id": "microsoft/git-base",
+      "architecture": "GitForCausalLM"
+    }
+  },
+  "precisions": ["fp16", "int8", "int4"],
+  "dataset": {
+    "name": "jxie/flickr8k",
+    "split": "train",
+    "sample_size": 500,
+    "seed": 42
+  },
+  "evaluation": {
+    "loss_threshold_default": 3.5,
+    "pair_types": ["correct", "incorrect"]
+  }
+}
